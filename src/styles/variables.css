@@ -1,0 +1,15 @@
+:root {
+  --font-size-small: 12px;
+  --font-size-regular: 16px;
+  --primary-color: #f4e041;
+  --secondary-color: #00bdd3;
+  --background-color: #f8f8f8;
+  --error-color: #cb3d40;
+  --input-border-color: #d0cfcf;
+  --text-color: #000000;
+  --input-text-color: #ffffffde;
+  --input-placeholder-color: #7e7e7e;
+  --disabled-color: #b4b4b4;
+  --disabled-text-color: #fff;
+  --hover-btn-color: #ffe302;
+}

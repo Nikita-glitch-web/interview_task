@@ -1,0 +1,34 @@
+{
+  "name": "interview_task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "^14.2.15",
+    "classnames": "^2.5.1",
+    "formik": "^2.4.6",
+    "imask": "^7.6.1",
+    "next": "15.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-input-mask": "^2.0.4",
+    "react-phone-number-input": "^3.4.12",
+    "sass": "^1.85.1",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-input-mask": "^3.0.6",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.1",
+    "typescript": "^5"
+  }
+}
