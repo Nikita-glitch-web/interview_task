@@ -1,5 +1,3 @@
-// src/components/Form/components/RadioButton.jsx
-// eslint-disable-next-line no-unused-vars
 import React, { FC, ChangeEvent } from "react";
 import styles from "./RadioButton.module.css";
 

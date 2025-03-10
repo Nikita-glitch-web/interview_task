@@ -1,13 +1,9 @@
-/* eslint-disable @typescript-eslint/no-empty-object-type */
-// eslint-disable-next-line no-unused-vars
 import React, { FC } from "react";
 import classNames from "classnames";
 import style from "./LandingBanner.module.css";
-import { Link } from "../Controls";
+import { Link } from "../Controls/Link";
 
-interface LandingBanner {}
-
-export const LandingBanner: FC<LandingBanner> = () => {
+export const LandingBanner: FC = () => {
   return (
     <div className={style.banner_content_box}>
       <div className={style.banner_content}>

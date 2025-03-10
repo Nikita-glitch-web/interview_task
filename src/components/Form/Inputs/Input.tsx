@@ -1,4 +1,3 @@
-// Input.tsx
 import React, { forwardRef } from "react";
 import classNames from "classnames";
 import styles from "./Input.module.css";
