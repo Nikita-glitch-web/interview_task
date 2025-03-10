@@ -1,11 +1,8 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    formats: ["image/webp"],
-    unoptimized: true,
-  },
-  output: "export",
-  basePath: process.env.NODE_ENV === "production" ? "/interview_task" : "",
-  assetPrefix: process.env.NODE_ENV === "production" ? "/interview_task" : "",
+  output: "export", // <=== enables static exports
+  reactStrictMode: true,
+  basePath: "/interview_task",
 };
 
-export default nextConfig;
+module.exports = nextConfig;
