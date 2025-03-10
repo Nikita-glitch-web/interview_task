@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "npm run build && npm run export && gh-pages -d out"
   },
   "dependencies": {
     "@next/font": "^14.2.15",
@@ -26,6 +28,7 @@
     "@types/react-input-mask": "^3.0.6",
     "eslint": "^9",
     "eslint-config-next": "15.2.1",
+    "gh-pages": "^6.3.0",
     "typescript": "^5"
   }
 }
