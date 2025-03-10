@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import React, { FC, ReactNode } from "react";
 import style from "./Button.module.css";
 
@@ -15,14 +14,13 @@ export const Link: FC<LinkProps> = ({
   children,
   onClick,
   disabled,
-  type,
   className,
-  href
+  href,
 }) => {
-  const classNames = [style.button, className].join(' ');
+  const classNames = [style.button, className].join(" ");
 
   return (
-    <a 
+    <a
       className={classNames}
       href={href}
       onClick={onClick}
