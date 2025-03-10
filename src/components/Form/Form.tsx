@@ -10,7 +10,7 @@ import React, {
 } from "react";
 import classNames from "classnames";
 import style from "./Form.module.css";
-import { Button } from "../Controls/Button";
+import { Button } from "../Button/Button";
 import { Input } from "./Inputs/Input";
 import { InputMasked } from "./Inputs/InputMasked";
 import { Preloader } from "../Preloader/Preloader";

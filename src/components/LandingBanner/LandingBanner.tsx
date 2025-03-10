@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import classNames from "classnames";
 import style from "./LandingBanner.module.css";
-import { Link } from "../Controls/Link";
+import { Link } from "../Button/ButtonLink";
 
 export const LandingBanner: FC = () => {
   return (

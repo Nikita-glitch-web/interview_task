@@ -2,7 +2,7 @@ import React, { FC, useState, useEffect } from "react";
 import classNames from "classnames";
 import style from "./TeamMembers.module.css";
 import { Preloader } from "../Preloader/Preloader";
-import { Button } from "../Controls/Button";
+import { Button } from "../Button/Button";
 import { API_BASE_URL } from "@/config/constans";
 
 interface TeamMember {

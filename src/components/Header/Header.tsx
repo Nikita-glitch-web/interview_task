@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-empty-object-type */
 import React, { FC } from "react";
 import style from "./Header.module.css";
-import { Link } from "../Controls/Link";
+import { Link } from "../Button/ButtonLink";
 import Image from "next/image";
 
 interface HeaderProps {}
