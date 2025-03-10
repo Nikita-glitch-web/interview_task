@@ -1,13 +1,11 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+const nextConfig = {
   images: {
     formats: ["image/webp"],
     unoptimized: true,
   },
   output: "export",
-  basePath: "/interview_task",
-  assetPrefix: "/interview_task",
+  basePath: process.env.NODE_ENV === "production" ? "/interview_task" : "",
+  assetPrefix: process.env.NODE_ENV === "production" ? "/interview_task" : "",
 };
 
 export default nextConfig;
